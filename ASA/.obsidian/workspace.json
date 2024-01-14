@@ -1,0 +1,184 @@
+{
+  "main": {
+    "id": "973fe9364b4e8ae9",
+    "type": "split",
+    "children": [
+      {
+        "id": "d36ef1826152c15c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "11cc01d5b6f16017",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Graph Connectivity.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "9b1aec0a2ceaff04",
+    "type": "split",
+    "children": [
+      {
+        "id": "04898e3bd36fb26b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ba6b519ba0e06b6f",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "5288b5772e43d56c",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "756f7fa08ef953a4",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          },
+          {
+            "id": "4e5ee0281f2b232b",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 614.5
+  },
+  "right": {
+    "id": "f66747059ac5496f",
+    "type": "split",
+    "children": [
+      {
+        "id": "28ad200aefb9b357",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6f6ee9e879553583",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Graph Connectivity.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "356adaabbaace177",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Graph Connectivity.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "7777fbf5c38bdb1f",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "2e96d1f61386514f",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Graph Connectivity.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
+    }
+  },
+  "active": "11cc01d5b6f16017",
+  "lastOpenFiles": [
+    "Vault de ASA.md",
+    "Shortest Paths.md",
+    "ASAResumos/README.md",
+    "ASAResumos",
+    "Graph Connectivity.md",
+    "Pasted image 20240114165036.png",
+    "Pasted image 20240114163618.png",
+    "Greedy Programming.md",
+    "Pasted image 20240114162005.png",
+    "Dynamic Programming.md",
+    "Complexity.md",
+    "Pasted image 20240114151337.png",
+    "Pasted image 20240114150941.png",
+    "Pasted image 20240114141719.png",
+    "Pasted image 20240114134622.png",
+    "Pasted image 20240114111408.png",
+    "Excalidraw/Drawing 2024-01-14 11.31.52.excalidraw.md",
+    "Excalidraw/Dynamic Programming explanation.md",
+    "Excalidraw/Drawing 2024-01-14 11.07.25.excalidraw.md",
+    "Untitled Diagram.svg",
+    "Untitled Diagram 1.svg",
+    "Excalidraw"
+  ]
+}
