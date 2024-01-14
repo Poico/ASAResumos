@@ -59,4 +59,45 @@ As the table stays the same with found the best outcome so we can end now and no
 
 
 
-# Jhonson 
+# Johnson 
+Johnson's algorithm is a method employed in graph theory to address the all-pairs shortest path problem within a weighted directed graph. Unlike certain other algorithms that are limited by the presence of negative edge weights, Johnson's algorithm accommodates both positive and negative weights. The algorithm consists of three main steps, involving the transformation of the graph, the application of the Bellman-Ford algorithm, and the subsequent restoration of the original graph. Johnson's algorithm proves to be efficient, particularly for sparse graphs with a moderate number of vertices and edges, offering a solution to find the shortest paths between all pairs of vertices in a comprehensive yet adaptable manner.
+
+### Step 1: Add a New Vertex and Edges
+
+1.1 **Add a new vertex, say s, to the graph.**
+
+1.2 **Connect s to all existing vertices with zero-weight edges.**
+
+### Step 2: Run Bellman-Ford Algorithm
+
+2.1 **Run the Bellman-Ford algorithm starting from the newly added vertex s.**
+
+- This step detects negative weight cycles if they exist.
+
+2.2 **If a negative weight cycle is detected, halt the algorithm.**
+
+- Johnson's algorithm can't handle graphs with negative cycles.
+
+### Step 3: Modify Edge Weights
+
+3.1 **For each edge (u,v) in the original graph:**
+
+- Adjust the weight of the edge using the formula: w′(u,v)=w(u,v)+d[u]−d[v], where d[u] and ]d[v] are the distances found by the Bellman-Ford algorithm.
+
+### Step 4: Remove the Added Vertex
+
+4.1 **Remove the added vertex s and its incident edges from the modified graph.**
+
+### Step 5: Run Dijkstra's Algorithm for Each Vertex
+
+5.1 **Apply Dijkstra's algorithm for each vertex v in the modified graph.**
+
+- Use the adjusted edge weights from step 3.
+
+5.2 **Record the shortest paths and distances from each vertex �u to every other vertex v.**
+
+### Step 6: Restore Original Distances
+
+6.1 **For each pair of vertices u and v:**
+
+- Adjust the distance found in step 5 by reversing the adjustments made in step 3: d′(u,v)=d(u,v)−d[u]+d[v].

@@ -6,8 +6,7 @@ I.1 - [[Dynamic Programming]]: LCS, Parentização de Cadeias de Matrizes - prá
 I.2 - [[Greedy Programming]]: Códigos de Huffman, Selecção de Actividades - prática 5  
 I.3 - [[Graph Connectivity]]: DFS, Ordenação Topológica, SCCs (2 DFSs), BFS - prática 7  
 I.4 - [[Shortest Paths]]: Dijkstra, Bellman-Ford, DAGShortestPaths, Repesagem de Johnson - práticas 8, 9  
-I.5 - MSTs: Kruskal, Prim - prática 10  
-I.6 - Union-Find - prática 10  
+I.5 - [[MSTs]]: Kruskal, Prim - prática 10    
 I.7 - Fluxo Máximo: Edmonds Karp - prática 11  
   
 II - Exercícios de dificuldade intermédia  
@@ -22,6 +21,4 @@ III - Exercícios de dificuldade elevada
   
 III.1 - Formulação de modelos de programação dinâmica (identificação da recursão, pseudo-código e análise da complexidade) - práticas 3, 4  
 III.2 - Formulação de redes de fluxo - prática 11  
-III.3 - Cálculo de complexidade amortizada - prática 6  
-
-III.4 - Provar que um problema está em NP e é NP-difícil - prática 13
+III.3 - Provar que um problema está em NP e é NP-difícil - prática 13
